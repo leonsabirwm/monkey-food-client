@@ -1,0 +1,45 @@
+.city-container{
+    width: 248px;
+    height: 280px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.city-wrap{
+   max-width: 250px;
+   overflow: hidden;
+}
+#cityy:hover  #myy{
+visibility: visible;
+}
+#cityy:hover  .initials{
+    visibility: visible;
+}
+.city-name{
+    z-index: 25;
+    font-weight: bold;
+}
+.city-btn{
+    /* margin-left: 5.2rem; */
+    /* display: none; */
+    visibility: hidden;
+    transition: visibility .1s ease-in-out .1s
+
+}
+.initials{
+    color: #D70F64;
+    position: absolute;
+    left: -2rem;
+    bottom: -4rem;
+    z-index: 23;
+    /* display: none; */
+    visibility: hidden;
+    transition: visibility .1s ease-in-out .1s
+}
+.initials h1{
+    color: #d70f6296;
+    font-size: 220px;
+    font-weight: bold;
+
+}

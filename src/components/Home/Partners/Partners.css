@@ -1,0 +1,41 @@
+
+.partner-img{
+  width: 100%;
+  min-height: 30rem;
+  background-image: url(../../../assests/images/partners.webp);  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 888;
+}
+.partner-title h1{
+    font-size: 9rem;
+    font-weight: bold;
+    color: rgba(150, 154, 158, 0.212);
+}
+.partner-transparent{
+    position: absolute;
+    top: -8rem;
+    left: 8rem;
+    z-index: -1;
+}
+.food-rest h2{
+    font-weight: lighter;
+    position: relative;
+    top: -6.5rem;
+    left: -3rem;
+}
+.get-started{
+    font-weight: 300;
+    width: 40rem;
+    text-align: left;
+    position:absolute;
+    top: 9rem;
+    left: 5rem;
+    background-color: white;
+
+}
+.partner-container{
+    position:relative;
+    margin: 5rem 0;
+}

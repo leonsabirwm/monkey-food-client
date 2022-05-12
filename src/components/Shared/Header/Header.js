@@ -7,8 +7,8 @@ import './Header.css'
 
 export const Header = () => {
   return (
-    <div className='shadow-sm'>
-        <Navbar bg="white" expand="lg">
+    <div className=''>
+        <Navbar bg="white" className='shadow-sm' fixed='top' z-index-55 expand="lg">
   <Container>
     <Navbar.Brand href="#home"><span className='monkey-title'><FiGithub></FiGithub> monkeyfood</span></Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
